@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height:49px;
+    background-color: rgb(26, 26, 27);
+    align-items: center;
+    box-shadow: 1px px 10px #000000;
+    position: relative;
+    margin-bottom: 17px;
+}
+
+li{
+    display: inline;
+}
+
+
+
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+.postContainer{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    margin-right: 20px;
+}
+
+.postBox, .filterBox, #box, .premiumBox, .homeBox{
+    background-color: rgb(26, 26, 27);
+    border-style: solid;
+    border-color: rgb(52, 53, 54);
+    border-radius: 5px;
+    border-width: 1px;
+    margin-bottom: 15px;
+
+}
+
+.postBox{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    height: 56px;
+
+}
+
+.profileCircle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(39, 39, 41);
+    margin: 2%;
+}
+
+.inputTitle{
+    width: 77%;
+    height: 38px;
+
+    border-style: solid;
+    border-color: rgb(52, 53, 54);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-stretch: ultra-expanded;
+    letter-spacing: 0.15px;
+    font-weight: 100;
+    border-radius: 5px;
+    border-width: 1px;
+
+    background-color: rgb(39, 39, 41);
+}
+
+.filterBox{
+    height: 61px;
+
+}
+
+
+#box{
+    height: 100px;
+    margin-bottom: 19px;
+}
+    
+
+    
+
+
+
+.periphContainer{
+    display: flex;
+    flex-direction: column;
+
+    width: 310px;
+}
+
+.premiumBox{
+    height: 300px;
+
+}
+
+.homeBox{
+    height: 300px;
+
+}
