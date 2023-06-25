@@ -15,6 +15,48 @@ ul{
     margin-bottom: 17px;
 }
 
+.redditLogo{
+    margin-left: 20px;
+    width: 99px;
+    height: 62px;
+}
+
+.homeDrop{
+    background-color: rgb(26, 26, 27);
+    border-style: solid;
+    border-color: rgb(26, 26, 27);
+    width: 269px;
+    height: 35px;
+    border-width: 1px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homeDrop:hover{
+    border-color: rgb(52, 53, 54);
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.searchBar{
+    width: 30%;
+    height: 38px;
+    border-style: solid;
+    border-color: rgb(52, 53, 54);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-stretch: ultra-expanded;
+    letter-spacing: 0.15px;
+    font-weight: 100;
+    border-radius: 90px;
+    border-width: 1px;
+    margin-left: 20px;
+    background-color: rgb(39, 39, 41);
+}
+
 li{
     display: inline;
 }
